@@ -1,0 +1,85 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4162
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipes",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.v-nav-toggle.gk-nav__recipes, using=css selector}"
+          ],
+          "result": "id: d5d95dd7-bca7-4151-8e46-5c359199f752",
+          "subLogs": [],
+          "duration": 2151
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: .v-nav-toggle.gk-nav__recipes",
+            "{\"id\":\"d5d95dd7-bca7-4151-8e46-5c359199f752\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1299
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify text is RECIPES",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 8676,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate To Recipes page",
+      "type": "TestStepPass",
+      "duration": 9468,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify text is RECIPES :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then verify text is RECIPES@scenarios/smoketest.bdd#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then verify text is RECIPES(scenarios/smoketest.bdd:5)\r\n"
+}

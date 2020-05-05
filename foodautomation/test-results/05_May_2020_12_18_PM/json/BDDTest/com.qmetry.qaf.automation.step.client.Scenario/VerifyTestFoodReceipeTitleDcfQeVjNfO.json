@@ -1,0 +1,157 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4152
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "[id: 43f05e2c-19d2-4cdc-9547-f9930dac1355]",
+              "subLogs": [],
+              "duration": 45
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 43f05e2c-19d2-4cdc-9547-f9930dac1355",
+              "subLogs": [],
+              "duration": 24
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"43f05e2c-19d2-4cdc-9547-f9930dac1355\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 46
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 43f05e2c-19d2-4cdc-9547-f9930dac1355",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"43f05e2c-19d2-4cdc-9547-f9930dac1355\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 373
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTextIsRECIPES",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 8691,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to recipe page",
+      "type": "TestStepPass",
+      "duration": 535,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipeLink.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 146,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipeLink.click'",
+          "type": "TestStepPass",
+          "duration": 384,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify text is RECIPES",
+      "type": "TestStepFail",
+      "screenshot": "../img/VerifyTestFoodReceipeTitle_12vmpf2qchogv17046.png",
+      "duration": 7,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "expected [RECIPES] but found [text.recipe]",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [RECIPES] but found [text.recipe]\r\n\tat .Then verify text is RECIPES(scenarios/smoketest.bdd:5)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.verifyTextIsRECIPES_aroundBody38(StepsLibrary.java:249)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.verifyTextIsRECIPES(StepsLibrary.java:246)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)\r\n"
+}

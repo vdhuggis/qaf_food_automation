@@ -1,0 +1,187 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4176
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "[id: 7ee16f52-1e09-42a6-9650-d6b47ff8dec2]",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "id: 7ee16f52-1e09-42a6-9650-d6b47ff8dec2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@href='/recipe?ref=nav']",
+            "{\"id\":\"7ee16f52-1e09-42a6-9650-d6b47ff8dec2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 7ee16f52-1e09-42a6-9650-d6b47ff8dec2",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"7ee16f52-1e09-42a6-9650-d6b47ff8dec2\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 522
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTextIsRECIPES",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "[id: 108cf1ee-9c07-46d0-806a-d0ab66526a91]",
+          "subLogs": [],
+          "duration": 192
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: 108cf1ee-9c07-46d0-806a-d0ab66526a91",
+          "subLogs": [],
+          "duration": 557
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"108cf1ee-9c07-46d0-806a-d0ab66526a91\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: 108cf1ee-9c07-46d0-806a-d0ab66526a91",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"108cf1ee-9c07-46d0-806a-d0ab66526a91\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 8578,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to recipe page",
+      "type": "TestStepPass",
+      "duration": 719,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipeLink.click'",
+          "type": "TestStepPass",
+          "duration": 533,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify text is RECIPES",
+      "type": "TestStepPass",
+      "duration": 1612,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES",
+          "type": "Pass",
+          "screenshot": "../img/VerifyTestFoodReceipeTitle_78wfaa1gv8wr64419.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

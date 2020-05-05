@@ -1,0 +1,623 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 886
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToSearchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "[id: eba308d6-d428-4e0e-ac4f-31dd52b930ee]",
+          "subLogs": [],
+          "duration": 98
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "id: eba308d6-d428-4e0e-ac4f-31dd52b930ee",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Search']",
+            "{\"id\":\"eba308d6-d428-4e0e-ac4f-31dd52b930ee\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: eba308d6-d428-4e0e-ac4f-31dd52b930ee",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"eba308d6-d428-4e0e-ac4f-31dd52b930ee\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 746
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: ef97db7e-ba76-4e03-82b4-64fd229f0588]",
+              "subLogs": [],
+              "duration": 225
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: ef97db7e-ba76-4e03-82b4-64fd229f0588",
+              "subLogs": [],
+              "duration": 62
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"ef97db7e-ba76-4e03-82b4-64fd229f0588\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 19
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchRecipe",
+      "args": [
+        "[breakfast pizza]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "[id: ef97db7e-ba76-4e03-82b4-64fd229f0588]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: ef97db7e-ba76-4e03-82b4-64fd229f0588",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"id\":\"ef97db7e-ba76-4e03-82b4-64fd229f0588\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 195
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: ef97db7e-ba76-4e03-82b4-64fd229f0588",
+              "subLogs": [],
+              "duration": 52
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"ef97db7e-ba76-4e03-82b4-64fd229f0588\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 318
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[breakfast pizza, recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: ef97db7e-ba76-4e03-82b4-64fd229f0588",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"value\":[\"breakfast pizza\"],\"id\":\"ef97db7e-ba76-4e03-82b4-64fd229f0588\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 246
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectPizzaRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+          ],
+          "result": "[id: a591dd21-3b32-452b-8185-4c4d3540156e, id: 3ac899de-9f6c-45c0-b3e7-467cd2597733, id: 307b188e-5d8a-4939-becd-8a90b8d02f07, id: 60cd4c0a-38b2-41d2-bbcc-84ab40171e56, id: a4cd1f76-41b4-401e-87ce-9174a9f4d393, id: 3a4be3a4-b4fb-4a8a-9fec-5a522baac675, id: d06cdce2-004b-4aa5-ae35-8b77babfef83, id: e0e4608c-6cc1-46ab-83bf-3ab521b7ae69, id: 88f8873f-7fcb-47a2-aa27-b2a6aa67591d, id: 6688e5b5-4bf8-4f4f-bacd-127f376dcada, id: f80218a3-8401-4b36-bd6a-5a6a7ff2b75a, id: 8ba9d296-bd8b-412c-baa5-f6a2c3f84d76, id: 119f90e0-468d-4edc-a3ae-2d81a4cf7d5a, id: 48f90943-95cc-4c70-bf82-4000584da4a6, id: 7219c114-5067-48a7-9973-f8dee6859ade, id: b49f4941-bede-4d54-97de-ee9165899238, id: 997e0599-1438-4051-b149-231745695a37, id: 13d51487-3768-4e9a-8c4b-1c06c5b69b84, id: 3687c41e-d476-4b97-b21f-71cf7b898a3c, id: dec8a332-2418-49ca-90f1-58d017b00488]",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+          ],
+          "result": "id: a591dd21-3b32-452b-8185-4c4d3540156e",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href[contains(.,'pizza')]][1]",
+            "{\"id\":\"a591dd21-3b32-452b-8185-4c4d3540156e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[pizzaRecipeImg.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+              ],
+              "result": "id: a591dd21-3b32-452b-8185-4c4d3540156e",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //a[@href[contains(.,'pizza')]][1]",
+                "{\"id\":\"a591dd21-3b32-452b-8185-4c4d3540156e\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 652
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickReviewRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()='review'], using=xpath}"
+          ],
+          "result": "[id: 9862c616-45e3-468e-9dbe-15b70a5b43ee]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='review'], using=xpath}"
+          ],
+          "result": "id: 9862c616-45e3-468e-9dbe-15b70a5b43ee",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[text()='review']",
+            "{\"id\":\"9862c616-45e3-468e-9dbe-15b70a5b43ee\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[reviewBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[text()='review'], using=xpath}"
+              ],
+              "result": "id: 9862c616-45e3-468e-9dbe-15b70a5b43ee",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[text()='review']",
+                "{\"id\":\"9862c616-45e3-468e-9dbe-15b70a5b43ee\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 262
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "writeReviewRecipe",
+      "args": [
+        "[Good]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//textarea[@placeholder='Start typing...'], using=xpath}"
+          ],
+          "result": "[id: de99825d-d5ad-475c-b3ab-acf7cbd4376f]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//textarea[@placeholder='Start typing...'], using=xpath}"
+          ],
+          "result": "id: de99825d-d5ad-475c-b3ab-acf7cbd4376f",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //textarea[@placeholder='Start typing...']",
+            "{\"id\":\"de99825d-d5ad-475c-b3ab-acf7cbd4376f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Good, writeReview.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//textarea[@placeholder='Start typing...'], using=xpath}"
+              ],
+              "result": "id: de99825d-d5ad-475c-b3ab-acf7cbd4376f",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //textarea[@placeholder='Start typing...']",
+                "{\"value\":[\"Good\"],\"id\":\"de99825d-d5ad-475c-b3ab-acf7cbd4376f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 125
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLoginMsg",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1], using=xpath}"
+          ],
+          "result": "[id: 809f5fb8-ec68-4f41-b719-25f987c9e56b]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1], using=xpath}"
+          ],
+          "result": "id: 809f5fb8-ec68-4f41-b719-25f987c9e56b",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: (//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1]",
+            "{\"id\":\"809f5fb8-ec68-4f41-b719-25f987c9e56b\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "assertVisible",
+          "args": [
+            "[saveMessageText.verify]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=(//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1], using=xpath}"
+              ],
+              "result": "[id: 809f5fb8-ec68-4f41-b719-25f987c9e56b]",
+              "subLogs": [],
+              "duration": 22
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1], using=xpath}"
+              ],
+              "result": "id: 809f5fb8-ec68-4f41-b719-25f987c9e56b",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: (//h1[text()='Save recipes across devices, write reviews, and share your own photos!'])[1]",
+                "{\"id\":\"809f5fb8-ec68-4f41-b719-25f987c9e56b\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 16
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 887,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to search page",
+      "type": "TestStepPass",
+      "duration": 7202,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipe.search'",
+          "type": "TestStepPass",
+          "duration": 758,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 309,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then search recipe 'breakfast pizza'",
+      "type": "TestStepPass",
+      "duration": 6868,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 372,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'breakfast pizza' into 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 262,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then select a recipe",
+      "type": "TestStepPass",
+      "duration": 12731,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'pizzaRecipeImg.click'",
+          "type": "TestStepPass",
+          "duration": 662,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on review btn",
+      "type": "TestStepPass",
+      "duration": 6352,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'reviewBtn.click'",
+          "type": "TestStepPass",
+          "duration": 275,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then write a review 'Good'",
+      "type": "TestStepPass",
+      "duration": 12214,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Good' into 'writeReview.click'",
+          "type": "TestStepPass",
+          "duration": 149,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify login message for unregistered user while save/review",
+      "type": "TestStepPass",
+      "duration": 6556,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "assert 'saveMessageText.verify' is visible",
+          "type": "TestStepPass",
+          "duration": 493,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected Save message for guest visible : Actual Save message for guest visible",
+              "type": "Pass",
+              "screenshot": "../img/VerifyReviewRecipeActionForGuestUser_gpsaubalxl8518696.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

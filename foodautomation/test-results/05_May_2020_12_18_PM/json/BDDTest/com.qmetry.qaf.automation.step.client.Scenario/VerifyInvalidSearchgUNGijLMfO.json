@@ -1,0 +1,527 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 809
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "[id: 4182af84-8b07-4ff7-b3e6-ad11f86f07c1]",
+              "subLogs": [],
+              "duration": 255
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 4182af84-8b07-4ff7-b3e6-ad11f86f07c1",
+              "subLogs": [],
+              "duration": 361
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"4182af84-8b07-4ff7-b3e6-ad11f86f07c1\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 49
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 4182af84-8b07-4ff7-b3e6-ad11f86f07c1",
+              "subLogs": [],
+              "duration": 65
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"4182af84-8b07-4ff7-b3e6-ad11f86f07c1\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1421
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToSearchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "[id: f48d3ebd-fd02-4f43-be89-39f254a54847]",
+              "subLogs": [],
+              "duration": 43
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: f48d3ebd-fd02-4f43-be89-39f254a54847",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"f48d3ebd-fd02-4f43-be89-39f254a54847\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 13
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: f48d3ebd-fd02-4f43-be89-39f254a54847",
+              "subLogs": [],
+              "duration": 7
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"f48d3ebd-fd02-4f43-be89-39f254a54847\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 669
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5]",
+              "subLogs": [],
+              "duration": 186
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5",
+              "subLogs": [],
+              "duration": 232
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"64dc6e7a-7a51-4353-83f2-906e70d3dcd5\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 23
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchRecipe",
+      "args": [
+        "[Iphone]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5]",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"64dc6e7a-7a51-4353-83f2-906e70d3dcd5\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 27
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5",
+              "subLogs": [],
+              "duration": 130
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"64dc6e7a-7a51-4353-83f2-906e70d3dcd5\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 434
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Iphone, recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 64dc6e7a-7a51-4353-83f2-906e70d3dcd5",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"value\":[\"Iphone\"],\"id\":\"64dc6e7a-7a51-4353-83f2-906e70d3dcd5\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 84
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNoMatchMsg",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[noMatchRecipeMsg.verify]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+              ],
+              "result": "[id: e48f4395-ff2e-4601-bdc8-8080cc029436]",
+              "subLogs": [],
+              "duration": 46
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+              ],
+              "result": "id: e48f4395-ff2e-4601-bdc8-8080cc029436",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //h2[contains(text(),'No matches.')]",
+                "{\"id\":\"e48f4395-ff2e-4601-bdc8-8080cc029436\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 17
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "assertVisible",
+          "args": [
+            "[noMatchRecipeMsg.verify]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+              ],
+              "result": "[id: e48f4395-ff2e-4601-bdc8-8080cc029436]",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+              ],
+              "result": "id: e48f4395-ff2e-4601-bdc8-8080cc029436",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //h2[contains(text(),'No matches.')]",
+                "{\"id\":\"e48f4395-ff2e-4601-bdc8-8080cc029436\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 12
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 809,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to recipe page",
+      "type": "TestStepPass",
+      "duration": 2156,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipeLink.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 669,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipeLink.click'",
+          "type": "TestStepPass",
+          "duration": 1487,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When navigate to search page",
+      "type": "TestStepPass",
+      "duration": 7191,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipe.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 69,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipe.search'",
+          "type": "TestStepPass",
+          "duration": 677,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 443,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then search recipe 'Iphone'",
+      "type": "TestStepPass",
+      "duration": 6715,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 48,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 565,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Iphone' into 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 100,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify no match message",
+      "type": "TestStepPass",
+      "duration": 660,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'noMatchRecipeMsg.verify' to be visible",
+          "type": "TestStepPass",
+          "duration": 81,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "assert 'noMatchRecipeMsg.verify' is visible",
+          "type": "TestStepPass",
+          "duration": 579,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected No Match Recipe Message visible : Actual No Match Recipe Message visible",
+              "type": "Pass",
+              "screenshot": "../img/VerifyInvalidSearch_3skx6yvzdl3u7513.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

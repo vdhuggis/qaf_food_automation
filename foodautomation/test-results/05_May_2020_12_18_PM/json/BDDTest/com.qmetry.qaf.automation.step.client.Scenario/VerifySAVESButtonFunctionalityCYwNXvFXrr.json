@@ -1,0 +1,1004 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 831
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SignInUser",
+      "args": [
+        "[vdhuggis@gmail.com, Arjun@17]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[signInBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[text()='Sign In'], using=xpath}"
+              ],
+              "result": "id: 4463cafb-a506-4b0e-8d8f-e954077d6838",
+              "subLogs": [],
+              "duration": 65
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[text()='Sign In']",
+                "{\"id\":\"4463cafb-a506-4b0e-8d8f-e954077d6838\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 81
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[logInBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=(//label/a[text()='Log In'])[1], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 51
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=(//label/a[text()='Log In'])[1], using=xpath}"
+              ],
+              "result": "[id: 1a483471-3484-4e6e-baa9-681cc3e35261]",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//label/a[text()='Log In'])[1], using=xpath}"
+              ],
+              "result": "id: 1a483471-3484-4e6e-baa9-681cc3e35261",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: (//label/a[text()='Log In'])[1]",
+                "{\"id\":\"1a483471-3484-4e6e-baa9-681cc3e35261\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 16
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[logInBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//label/a[text()='Log In'])[1], using=xpath}"
+              ],
+              "result": "id: 1a483471-3484-4e6e-baa9-681cc3e35261",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: (//label/a[text()='Log In'])[1]",
+                "{\"id\":\"1a483471-3484-4e6e-baa9-681cc3e35261\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 178
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[emailTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=(//*[@name='username'])[1], using=xpath}"
+              ],
+              "result": "[id: f60d6b04-7cf9-4d65-999b-695394992ee1]",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='username'])[1], using=xpath}"
+              ],
+              "result": "id: f60d6b04-7cf9-4d65-999b-695394992ee1",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: (//*[@name='username'])[1]",
+                "{\"id\":\"f60d6b04-7cf9-4d65-999b-695394992ee1\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 19
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[emailTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='username'])[1], using=xpath}"
+              ],
+              "result": "id: f60d6b04-7cf9-4d65-999b-695394992ee1",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: (//*[@name='username'])[1]",
+                "{\"id\":\"f60d6b04-7cf9-4d65-999b-695394992ee1\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 68
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[vdhuggis@gmail.com, emailTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='username'])[1], using=xpath}"
+              ],
+              "result": "id: f60d6b04-7cf9-4d65-999b-695394992ee1",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: (//*[@name='username'])[1]",
+                "{\"value\":[\"vdhuggis@gmail.com\"],\"id\":\"f60d6b04-7cf9-4d65-999b-695394992ee1\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 119
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[pwdTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=(//*[@name='password'])[1], using=xpath}"
+              ],
+              "result": "[id: 480a12ba-2d2b-46a2-8986-80ece215f494]",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='password'])[1], using=xpath}"
+              ],
+              "result": "id: 480a12ba-2d2b-46a2-8986-80ece215f494",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: (//*[@name='password'])[1]",
+                "{\"id\":\"480a12ba-2d2b-46a2-8986-80ece215f494\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 14
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[pwdTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='password'])[1], using=xpath}"
+              ],
+              "result": "id: 480a12ba-2d2b-46a2-8986-80ece215f494",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: (//*[@name='password'])[1]",
+                "{\"id\":\"480a12ba-2d2b-46a2-8986-80ece215f494\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 109
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Arjun@17, pwdTxt.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=(//*[@name='password'])[1], using=xpath}"
+              ],
+              "result": "id: 480a12ba-2d2b-46a2-8986-80ece215f494",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: (//*[@name='password'])[1]",
+                "{\"value\":[\"Arjun@17\"],\"id\":\"480a12ba-2d2b-46a2-8986-80ece215f494\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 178
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToSearchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "[id: b0a8e916-325d-4f56-99b0-ab0fe69cec77]",
+              "subLogs": [],
+              "duration": 22
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: b0a8e916-325d-4f56-99b0-ab0fe69cec77",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"b0a8e916-325d-4f56-99b0-ab0fe69cec77\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 16
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: b0a8e916-325d-4f56-99b0-ab0fe69cec77",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"b0a8e916-325d-4f56-99b0-ab0fe69cec77\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 804
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64]",
+              "subLogs": [],
+              "duration": 293
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64",
+              "subLogs": [],
+              "duration": 88
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"a4f4f94f-e407-4c15-9744-aa6c47ec9c64\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 17
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchRecipe",
+      "args": [
+        "[breakfast pizza]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64]",
+              "subLogs": [],
+              "duration": 34
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64",
+              "subLogs": [],
+              "duration": 111
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"a4f4f94f-e407-4c15-9744-aa6c47ec9c64\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 31
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"a4f4f94f-e407-4c15-9744-aa6c47ec9c64\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 307
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[breakfast pizza, recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: a4f4f94f-e407-4c15-9744-aa6c47ec9c64",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"value\":[\"breakfast pizza\"],\"id\":\"a4f4f94f-e407-4c15-9744-aa6c47ec9c64\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 123
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectPizzaRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[pizzaRecipeImg.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+              ],
+              "result": "[id: 828cbc9f-17ce-487d-a084-b2d593a2d579, id: a6aa73ed-3bc8-4a2b-87eb-06838115867d, id: 676666bd-e2f2-4cf7-bdf2-90815b44baca, id: 9abdef99-2156-4002-a603-f0df6583b48b, id: 9b90127d-914a-4d44-84d1-b6b01e30720b, id: cb2c667f-6c41-480f-a1e2-a325a1f15705, id: 4d6911e0-cb82-4e97-9634-590df2903984, id: d0eacf26-cf8c-4411-98c3-b4baa711e8f4, id: 47c143f8-c469-4081-bc0d-f386ed500a99, id: 3bef1800-f69b-46b3-be85-30d8e7439d74, id: aa51c312-0f6c-48f2-b575-070cfffbbc51, id: bd2ec59d-7321-4d02-a758-80aa48002aa4, id: 28617768-1b99-4832-8b4b-8f4b94ea1f07, id: 11da6331-80ac-4244-a067-1ac3b43f564e, id: fa6e1cdb-935e-47f3-a5d6-813de226d9b5, id: 017fe05d-596d-451c-8ea8-e202edb960e9, id: f094c059-394c-4041-9315-1dfa44682aff, id: e948009b-9009-4690-a27d-4b7b458c683e, id: ff1f2924-6e82-4d52-b46a-06a4dcc7806f, id: 269635ac-337d-4828-8811-9f294264dd36]",
+              "subLogs": [],
+              "duration": 46
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+              ],
+              "result": "id: 828cbc9f-17ce-487d-a084-b2d593a2d579",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //a[@href[contains(.,'pizza')]][1]",
+                "{\"id\":\"828cbc9f-17ce-487d-a084-b2d593a2d579\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 24
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[pizzaRecipeImg.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//a[@href[contains(.,'pizza')]][1], using=xpath}"
+              ],
+              "result": "id: 828cbc9f-17ce-487d-a084-b2d593a2d579",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //a[@href[contains(.,'pizza')]][1]",
+                "{\"id\":\"828cbc9f-17ce-487d-a084-b2d593a2d579\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 886
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "saveRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[saveReceipeBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[contains(text(),'Save recipe')], using=xpath}"
+              ],
+              "result": "[id: ea43252c-6f7b-40f2-99db-57bc02d35cf5]",
+              "subLogs": [],
+              "duration": 64
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[contains(text(),'Save recipe')], using=xpath}"
+              ],
+              "result": "id: ea43252c-6f7b-40f2-99db-57bc02d35cf5",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[contains(text(),'Save recipe')]",
+                "{\"id\":\"ea43252c-6f7b-40f2-99db-57bc02d35cf5\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 19
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[saveReceipeBtn.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[contains(text(),'Save recipe')], using=xpath}"
+              ],
+              "result": "id: ea43252c-6f7b-40f2-99db-57bc02d35cf5",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[contains(text(),'Save recipe')]",
+                "{\"id\":\"ea43252c-6f7b-40f2-99db-57bc02d35cf5\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 88
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySavedMsgForRegUser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[savedTxt.verify]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//span[text()='Saved'], using=xpath}"
+              ],
+              "result": "[id: 9d1c1176-d4b7-409c-9556-a558477c0f60]",
+              "subLogs": [],
+              "duration": 21
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Saved'], using=xpath}"
+              ],
+              "result": "id: 9d1c1176-d4b7-409c-9556-a558477c0f60",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //span[text()='Saved']",
+                "{\"id\":\"9d1c1176-d4b7-409c-9556-a558477c0f60\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 15
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "assertVisible",
+          "args": [
+            "[savedTxt.verify]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//span[text()='Saved'], using=xpath}"
+              ],
+              "result": "[id: 9d1c1176-d4b7-409c-9556-a558477c0f60]",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Saved'], using=xpath}"
+              ],
+              "result": "id: 9d1c1176-d4b7-409c-9556-a558477c0f60",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //span[text()='Saved']",
+                "{\"id\":\"9d1c1176-d4b7-409c-9556-a558477c0f60\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 14
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 832,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'",
+      "type": "TestStepPass",
+      "duration": 14062,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'signInBtn.click'",
+          "type": "TestStepPass",
+          "duration": 148,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'logInBtn.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 1095,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'logInBtn.click'",
+          "type": "TestStepPass",
+          "duration": 187,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'emailTxt.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 50,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'emailTxt.click'",
+          "type": "TestStepPass",
+          "duration": 80,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'",
+          "type": "TestStepPass",
+          "duration": 131,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'pwdTxt.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 51,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'pwdTxt.click'",
+          "type": "TestStepPass",
+          "duration": 118,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Arjun@17' into 'pwdTxt.click'",
+          "type": "TestStepPass",
+          "duration": 194,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then navigate to search page",
+      "type": "TestStepPass",
+      "duration": 7265,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipe.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 51,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipe.search'",
+          "type": "TestStepPass",
+          "duration": 813,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 400,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then search recipe 'breakfast pizza'",
+      "type": "TestStepPass",
+      "duration": 6636,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 179,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 320,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'breakfast pizza' into 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 136,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then select a recipe",
+      "type": "TestStepPass",
+      "duration": 12983,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'pizzaRecipeImg.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 85,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'pizzaRecipeImg.click'",
+          "type": "TestStepPass",
+          "duration": 896,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then save a recipe",
+      "type": "TestStepPass",
+      "duration": 6195,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'saveReceipeBtn.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 98,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'saveReceipeBtn.click'",
+          "type": "TestStepPass",
+          "duration": 96,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify saved recipe msg for Reg User",
+      "type": "TestStepPass",
+      "duration": 6790,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'savedTxt.verify' to be visible",
+          "type": "TestStepPass",
+          "duration": 49,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "assert 'savedTxt.verify' is visible",
+          "type": "TestStepPass",
+          "duration": 740,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible",
+              "type": "Pass",
+              "screenshot": "../img/VerifySAVESButtonFunctionality_kxhhgra9gml77514.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

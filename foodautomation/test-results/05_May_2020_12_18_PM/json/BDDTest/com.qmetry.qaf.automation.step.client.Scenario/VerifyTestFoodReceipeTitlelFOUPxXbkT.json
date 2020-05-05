@@ -1,0 +1,103 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4769
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipes",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[button.recipe]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=.v-nav-toggle.gk-nav__recipes, using=css selector}"
+              ],
+              "result": "id: afd44f9b-2862-4c58-8c10-cd7354d70b2a",
+              "subLogs": [],
+              "duration": 2183
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.cssSelector: .v-nav-toggle.gk-nav__recipes",
+                "{\"id\":\"afd44f9b-2862-4c58-8c10-cd7354d70b2a\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 352
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify text is RECIPES",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 9117,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate To Recipes page",
+      "type": "TestStepPass",
+      "duration": 8586,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'button.recipe'",
+          "type": "TestStepPass",
+          "duration": 2583,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify text is RECIPES :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then verify text is RECIPES@scenarios/smoketest.bdd#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then verify text is RECIPES(scenarios/smoketest.bdd:5)\r\n"
+}

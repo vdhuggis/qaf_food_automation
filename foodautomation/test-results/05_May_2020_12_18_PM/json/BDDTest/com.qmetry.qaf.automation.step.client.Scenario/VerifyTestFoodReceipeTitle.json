@@ -1,0 +1,353 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5093
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipes",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[button.recipe]"
+          ],
+          "result": "fail",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 4381
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 32
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 26
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 37
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 37
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 27
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=a[href='https://www.food.com/recipe?ref=nav'], using=css selector}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.cssSelector: a[href='https://www.food.com/recipe?ref=nav']",
+                "{\"id\":\"-1\"}"
+              ],
+              "result": "Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: a[href='https://www.food.com/recipe?ref=nav']",
+              "subLogs": [],
+              "duration": -450683252
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify text is RECIPES",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 11440,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate To Recipes page",
+      "type": "TestStepFail",
+      "screenshot": "../img/VerifyTestFoodReceipeTitle_s5csoxc3642541477.png",
+      "duration": 36896,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'button.recipe'",
+          "type": "TestStepFail",
+          "duration": 30887,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: a[href='https://www.food.com/recipe?ref=nav']",
+              "type": "Fail",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        },
+        {
+          "message": "Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: a[href='https://www.food.com/recipe?ref=nav']",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify text is RECIPES",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: a[href='https://www.food.com/recipe?ref=nav']\r\n\tat .When navigate To Recipes page(scenarios/smoketest.bdd:4)\r\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:215)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:299)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipes_aroundBody0(StepsLibrary.java:30)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipes(StepsLibrary.java:27)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href='https://www.food.com/recipe?ref=nav']\"}\n  (Session info: chrome=81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\vaidh\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c23d9ac55b4c461adc28933de6becb1a\n*** Element info: {Using=css selector, value=a[href='https://www.food.com/recipe?ref=nav']}\r\n\tat sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:235)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByCssSelector(QAFExtendedWebDriver.java:369)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByCssSelector(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:170)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)\r\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:215)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:299)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)\r\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipes_aroundBody0(StepsLibrary.java:30)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary$AjcClosure1.run(StepsLibrary.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipes(StepsLibrary.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

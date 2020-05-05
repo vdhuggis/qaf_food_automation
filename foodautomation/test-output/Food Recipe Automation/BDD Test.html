@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 05 10:49:59 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>300 seconds (300231 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Verify SAVES Button functionality()'><b>Verify SAVES Button functionality</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Verify SAVES Button functionality)<br>Test method: Verify SAVES Button functionality<br/>
+<a href="#Output-1676428380" onClick='toggleBox("Output-1676428380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1676428380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1676428380">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'logInBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'emailTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pwdTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pwdTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Arjun@17?' into 'pwdTxt.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify saved recipe msg for Reg User</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'savedTxt.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible <a href="../img/VerifySAVESButtonFunctionality_8jnoc2xya5258303.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>86</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ed</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.verify Invalid Search()'><b>verify Invalid Search</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (verify Invalid Search)<br>Test method: verify Invalid Search<br/>
+<a href="#Output-1323514615" onClick='toggleBox("Output-1323514615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323514615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323514615">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Iphone'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Iphone?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify no match message</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'noMatchRecipeMsg.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected No Match Recipe Message visible : Actual No Match Recipe Message visible <a href="../img/VerifyInvalidSearch_mplbgr9dwg7r58302.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ec</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.verify Review Recipe Action for Guest User()'><b>verify Review Recipe Action for Guest User</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (verify Review Recipe Action for Guest User)<br>Test method: verify Review Recipe for Guest User<br/>
+<a href="#Output-748975217" onClick='toggleBox("Output-748975217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-748975217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-748975217">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on review btn</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'reviewBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then write a review 'Good'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Good?' into 'writeReview.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifyReviewRecipeActionForGuestUser_1s0198orvs08258300.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ea</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.verify Save Recipe Action for Guest User()'><b>verify Save Recipe Action for Guest User</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (verify Save Recipe Action for Guest User)<br>Test method: verify Save Recipe for Guest User<br/>
+<a href="#Output-696165690" onClick='toggleBox("Output-696165690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-696165690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-696165690">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifySaveRecipeActionForGuestUser_oklxex46zdlt58299.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e9</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.verify Search Results()'><b>verify Search Results</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (verify Search Results)<br>Test method: verify Search Results -count<br/>
+<a href="#Output-429804587" onClick='toggleBox("Output-429804587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429804587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429804587">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Biriyani'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Biriyani?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify result count</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'resultCountText.verify' text is '10 RESULTS'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS <a href="../img/VerifySearchResults_9ry21699sira58301.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3eb</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.verify Test Food Receipe Title()'><b>verify Test Food Receipe Title</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (verify Test Food Receipe Title)<br>Test method: verify Test Food Receipe Title<br/>
+<a href="#Output-349259569" onClick='toggleBox("Output-349259569", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-349259569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-349259569">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify text is RECIPES</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES <a href="../img/VerifyTestFoodReceipeTitle_xhmx9uszpsnw58298.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>
